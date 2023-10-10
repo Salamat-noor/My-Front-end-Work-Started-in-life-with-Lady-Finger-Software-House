@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.background{
+    background-size: 100% 100%;
+}
+.taskbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+}
+.leftbar{
+    width: 20%;
+    padding-left: 25px;
+    text-decoration: solid;    float: left;
+    line-height: 100px;
+}
+.leftbar p{
+    font-size: 30px;
+    font-family: cursive;
+    
+}
+.rightbar{
+
+}
+.body{
+    padding-top: 100px;
+}

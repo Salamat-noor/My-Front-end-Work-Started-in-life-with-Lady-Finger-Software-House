@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-size: 100% 100%;
+}
+.one {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    background-color: #efefef;
+    z-index: 10;
+}
+.two{
+    width: 250px;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    z-index: 100;
+}
+.two{
+    position: absolute;
+    left: 1100px;
+    top: 200px;
+    background-color: #b4b3b3;
+}
+.three {
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: 70px;
+    left: 70px;}

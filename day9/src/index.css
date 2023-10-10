@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    position: relative;
+    background-image: url(../images/rog-zephyrus-g14-alan-walker-special-edition-4k-54.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1 a{
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: none;
+    color: rgba(37, 248, 0, 0.539);
+}
+nav h1 a:hover{
+    color: red;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: cursive;
+    color: rgba(22, 218, 252, 0.701);
+    font-size: 25px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.detail{
+    margin-left: 5%;
+    margin-top: 8%;
+    font-family: monospace;
+    color: wheat;
+}
+.detail h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+span a{ 
+    text-decoration: none;
+    color: orange;
+}
+.detail span a:hover{
+    color: red;
+}
+.detail p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+}
+/* .images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s, ;
+}
+.images:hover .shape{
+    bottom: 50px;
+}
+.images:hover .boy{
+    left: auto;
+    right: 50px;
+} */
+footer{
+    width: 100%;
+    margin: 500px 0px;
+}
+footer nav{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+footer nav h1 a{
+    padding-left: 700px;
+    letter-spacing: 3px;
+    color: aliceblue;
+    font-family: fantasy;
+}

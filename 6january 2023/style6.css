@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bgimage{
+    background-image: url(./images/15410.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);  
+}
+.menu ul li         {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none ;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+#listone{
+    text-decoration: none;
+    color: white;
+}
+#listone:hover{
+    color: orange;
+}
+#listtwo{
+    text-decoration: none;
+    color: white;
+}
+#listtwo:hover{
+    color: orange;
+}
+#listthree{
+    text-decoration: none;
+    color: white;
+}
+#listthree:hover{
+    color: orange;
+}
+#listfour{
+    text-decoration: none;
+    color: white;
+}
+#listfour:hover{
+    color: orange;
+}
+#listfive{
+    text-decoration: none;
+    color: white;
+}
+#listfive:hover{
+    color: orange;
+}
+#listsix{
+    color: orange;
+    text-decoration: none;
+}
+#listsix:hover{
+    color: white;
+}   
+.table{
+    background-color: rgba(0,0,0,0.5);
+    border: 3px solid green;
+}
+.table th{
+    color: azure;
+    font-size: 30px;
+}
+.table #name{
+    color: brown;
+}
+.table td{
+    font-size: 25px;
+    color: antiquewhite;
+}

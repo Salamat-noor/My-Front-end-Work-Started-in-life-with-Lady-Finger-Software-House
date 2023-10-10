@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-size: 100% 110%;
+    width: 100%;
+    height: 100vh;
+    background-color: darkred;
+    font-family: sans-serif;
+    color: aliceblue;    
+}
+.head{
+    width: 100%;
+    height: 100px;
+    border: 3px solid black;
+    background-color: darkred;
+}
+#logo{
+    color: aliceblue;    
+    float: left;
+    width: 20%;
+    height: 60px;
+    border: 3px solid black;
+}
+#logo{
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 30px 0px 0px 28px;
+}
+#list{
+    width: 20%;
+    height: 40px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 10px;
+    border: 3px solid black;
+    
+}
+#list li{
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+}
+#list a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.body{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+.body .pone{
+    width: 75%;
+    height: 340px;
+    text-align:right;
+    background-color: rgba(30, 21, 21, 0.4);
+    border: 3px solid black;
+    margin: 100px 0px 0px 20px;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+.pics{
+    float: right;
+    width: 350px;
+    height: 350px;
+    margin: -241px  -375px -200px  -400px ;
+    border: 3px solid black;
+}
+.pics img{
+    width: 170px;
+    height: 170px;
+    margin: 1px;
+    background-color: blue;
+}
+table{
+    width: 100%;
+    padding-right: 500px;
+
+}
+/* table tr .first{
+    width: 20%;
+    height: 250px;
+    background-color: red;
+    border: 3px solid black;
+} */
+.pehlaphoto{
+    width: 520px;
+    height: 438px;
+    border: 3px solid black;
+}
+.ptwo{
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    padding: 15px;
+}
+.foot{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    font-weight: normal;
+    border: 3px solid black;
+}
+.foot{
+    font-size: 25px;
+}
+@media (max-width="1500px") {
+    .head{
+        width: auto;
+        height: auto;
+    }   
+}
